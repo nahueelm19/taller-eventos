@@ -1,4 +1,4 @@
-let boton = document.getElementById('btn');
-boton.addEventListener('onclick', function(){
-    alert("Hola!");
+let contenedor = document.getElementsByTagName('div');
+contenedor.addEventListener('click', function() {
+    alert('Hola! Soy el div');
 })
