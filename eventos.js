@@ -1,4 +1,3 @@
-let contenedor = document.getElementsByTagName('div');
-contenedor.addEventListener('click', function() {
+document.getElementsByTagName('div').addEventListener('click', function() {
     alert('Hola! Soy el div');
 })
