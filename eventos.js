@@ -1,4 +1,4 @@
-let container = document.getElementById('contenedor');
-container.addEventListener('click', function() {
+let contenedor = document.getElementById('container');
+contenedor.addEventListener('click', function() {
     alert("Hola! Soy el div");
 })
